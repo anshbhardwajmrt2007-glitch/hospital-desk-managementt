@@ -4,10 +4,10 @@ echo ======================================================================
 echo   MediDesk Hospital Management - Pushing to GitHub
 echo ======================================================================
 echo.
-echo Target Repository: https://github.com/anshbhardwajmrt2007-glitch/hospital-desk-management.git
+echo Target Repository: https://github.com/anshbhardwajmrt2007-glitch/hospital-desk-managementt.git
 echo Branch: main
 echo.
-git push -u origin main
+git push -u origin main --force
 echo.
 if %errorlevel% equ 0 (
     echo ======================================================================
@@ -16,7 +16,7 @@ if %errorlevel% equ 0 (
 ) else (
     echo ======================================================================
     echo   [ACTION REQUIRED] If a browser prompt appeared, complete GitHub sign-in.
-    echo   Or run: git push -u origin main
+    echo   Or run: git push -u origin main --force
     echo ======================================================================
 )
 echo.
